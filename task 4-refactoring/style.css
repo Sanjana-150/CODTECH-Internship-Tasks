@@ -1,0 +1,20 @@
+body{
+font-family: Arial;
+margin:40px;
+}
+
+input{
+padding:8px;
+}
+
+button{
+padding:8px 12px;
+background:blue;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+li{
+margin:8px 0;
+}

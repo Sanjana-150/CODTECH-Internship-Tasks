@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Real-Time Note Editor</title>
+</head>
+
+<body>
+
+<h2>Real-Time Note Editor</h2>
+
+<textarea id="editor" rows="20" cols="80"></textarea>
+
+<script>
+if (!sessionStorage.getItem("tabOpened")) {
+    sessionStorage.setItem("tabOpened", "true");
+    window.open("http://localhost:1000", "_blank");
+}
+</script>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
